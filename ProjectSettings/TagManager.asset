@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Undiggable
+  - Enemy
+  - Hazard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Triggers
+  - One Way Ground
+  - EnemyTrigger
+  - PlayerTrigger
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3663024175
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GroundBG
+    uniqueID: 1815991401
+    locked: 0
+  - name: Ground
+    uniqueID: 1448758263
+    locked: 0
+  - name: Foreground
+    uniqueID: 766001789
+    locked: 0
