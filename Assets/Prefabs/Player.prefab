@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5587602431053124751}
   - component: {fileID: 5587602431053124736}
   - component: {fileID: 5587602431053124750}
+  - component: {fileID: 444744397}
+  - component: {fileID: 2199069720193095103}
   m_Layer: 12
   m_Name: Sprite
   m_TagString: Untagged
@@ -50,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2e7d2071d4226b342a69cd82eb65d1e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -70,8 +72,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1448758263
   m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2694296009887880794, guid: ed1c0cea968ffd94caefb9893ed1c808,
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -1991939646995958958, guid: 64b14593d7beaff459c056214322b624,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -102,6 +104,44 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &444744397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5587602431053124737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 2f5055da0000000069d43d6cf74b5a567d42a82d
+  m_ShapePath:
+  - {x: -0.27722168, y: -0.41483736, z: 0}
+  - {x: 0.22990799, y: -0.41483784, z: 0}
+  - {x: 0.25198746, y: 0.22558784, z: 0}
+  - {x: -0.28983784, y: 0.29182506, z: 0}
+  m_ShapePathHash: -935447019
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 167076
+--- !u!114 &2199069720193095103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5587602431053124737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8021f1ca75914424a9734ee536157541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5587602432365897942
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,9 +306,10 @@ MonoBehaviour:
   inAirDamping: 10
   undergroundDamping: 5
   jumpHeight: 3.2
-  emergeHeight: 4
+  emergeHeight: 4.2
   glideFallSpeed: -2
   wallSlideFallSpeed: -2
+  bounceOffEnemyHeight: 4
   emergePS: {fileID: 8629157929259451422, guid: 57108b2710f9d634caf254de598e811f,
     type: 3}
   submergePS: {fileID: 8629157929259451422, guid: 5ccb17fd426a8bf4d8a51707bf5fcb60,

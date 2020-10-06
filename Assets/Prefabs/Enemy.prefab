@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2331706847049272632}
   - component: {fileID: 2331706847049272635}
+  - component: {fileID: 733551907}
   m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
@@ -49,7 +50,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2e7d2071d4226b342a69cd82eb65d1e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -67,12 +68,13 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: be9ea59a2ac8a44d89ca3078ab60938f, type: 3}
+  m_SortingLayerID: 1448758263
+  m_SortingLayer: 2
+  m_SortingOrder: 1
+  m_Sprite: {fileID: -7282886668606283007, guid: f357d7ac92bbaf848b8c961c177291f4,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -81,6 +83,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &733551907
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2331706847049272633}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ea0c61ae2445654882a1a637c798617, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2331706848109071061
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,16 +258,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravity: -25
-  runSpeed: 8
-  drillingSpeed: 8
+  runSpeed: 2
   groundDamping: 20
   inAirDamping: 5
-  undergroundDamping: 5
   jumpHeight: 3
-  emergeHeight: 4
-  glideFallSpeed: -20
+  normalizedHorizontalSpeed: -1
   emergePS: {fileID: 0}
   submergePS: {fileID: 0}
+  deathClipName: slimeDeath
 --- !u!114 &2331706848109071059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,3 +278,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3624b530d451d4770827d4f4282dc41e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy: Slime

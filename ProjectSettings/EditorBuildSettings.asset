@@ -9,6 +9,23 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Scenes/Hub.unity
+    guid: fd7bedd2e1cc1db40a47316fcbc3d070
+  - enabled: 1
     path: Assets/Scenes/LVL01.unity
     guid: 52b6e220f53ea7949babb2262ee210a6
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/Bonus01.unity
+    guid: dee5f42fb58216248a37ecefb76bb7b8
+  - enabled: 0
+    path: Assets/Scenes/LVL00.unity
+    guid: 372cdcba509ec4ef39701e4cdc5818e4
+  - enabled: 1
+    path: Assets/Scenes/LVL02.unity
+    guid: 3a735e8e40fb01e43a9179308b836dc7
+  - enabled: 1
+    path: Assets/Scenes/LVL02-1.unity
+    guid: 5479beb89fb3779439cdcf89263f6f2c
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: ac33e44749b2b004cbd225291667c480,
+      type: 2}

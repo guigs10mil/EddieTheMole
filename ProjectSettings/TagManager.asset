@@ -7,6 +7,10 @@ TagManager:
   - Undiggable
   - Enemy
   - Hazard
+  - ExitHole
+  - LevelSelectHole
+  - HealthCollectable
+  - LevelEndHole
   layers:
   - Default
   - TransparentFX
@@ -55,4 +59,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 766001789
+    locked: 0
+  - name: UI
+    uniqueID: 1677531915
     locked: 0

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2763779623713951065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2763779623713951064}
+  - component: {fileID: 2763779623713951067}
+  - component: {fileID: 2763779623713951066}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2763779623713951064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2763779623713951065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2763779623713951067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2763779623713951065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ae422dd72fd8e4cafff06bf0a5cc43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2763779623713951066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2763779623713951065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa952e366c57394ba27d54ab7ac7dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Underground
+    group: Music
+    clip: {fileID: 8300000, guid: 4b17f6bea277cde49aeba282aa06c6b1, type: 3}
+    volume: 0.639
+    source: {fileID: 0}
+  - name: FootStep1
+    group: SFX
+    clip: {fileID: 8300000, guid: 9859301090e1a484bb9a97dc0c5d06bd, type: 3}
+    volume: 0.547
+    source: {fileID: 0}
+  - name: FootStep2
+    group: SFX
+    clip: {fileID: 8300000, guid: 27f1728f3ef5d1b4696f980402027f43, type: 3}
+    volume: 0.577
+    source: {fileID: 0}
+  - name: FootStep3
+    group: SFX
+    clip: {fileID: 8300000, guid: d14ecd7e611b9c147adab4ecadc38d78, type: 3}
+    volume: 0.584
+    source: {fileID: 0}
+  - name: Land
+    group: SFX
+    clip: {fileID: 8300000, guid: 2bab8f74d8ea3b549a5463ffec6d23bf, type: 3}
+    volume: 0.456
+    source: {fileID: 0}
+  - name: Dig
+    group: SFX
+    clip: {fileID: 8300000, guid: dfcf7093d80a44b4299ff84dd0398f8e, type: 3}
+    volume: 0.69
+    source: {fileID: 0}
+  - name: Hurt
+    group: SFX
+    clip: {fileID: 8300000, guid: 7a513921a4e99d948a97894480827c17, type: 3}
+    volume: 0.463
+    source: {fileID: 0}
+  - name: Block
+    group: SFX
+    clip: {fileID: 8300000, guid: 20c7ddf9510f03543ae5570ab42507d7, type: 3}
+    volume: 1
+    source: {fileID: 0}
+  - name: Kill
+    group: SFX
+    clip: {fileID: 8300000, guid: d14f462d11f7d094da5a220d6167ccc8, type: 3}
+    volume: 0.897
+    source: {fileID: 0}
+  - name: Coin
+    group: SFX
+    clip: {fileID: 8300000, guid: 5c5046b7bee40a34dbf9946d5d6995e7, type: 3}
+    volume: 0.199
+    source: {fileID: 0}
+  - name: Overground
+    group: Music
+    clip: {fileID: 8300000, guid: b30f9e5527fbcf6489308763259b2d84, type: 3}
+    volume: 0.298
+    source: {fileID: 0}
+  - name: Ok
+    group: SFX
+    clip: {fileID: 8300000, guid: 6576c7481c7b76a488403a400e6a3050, type: 3}
+    volume: 0.563
+    source: {fileID: 0}
+  - name: Tick
+    group: SFX
+    clip: {fileID: 8300000, guid: 4e09772589889b3408c6dbeb836266b6, type: 3}
+    volume: 0.44
+    source: {fileID: 0}
+  - name: Submit
+    group: SFX
+    clip: {fileID: 8300000, guid: ff72981e60bacae47848de96f420de86, type: 3}
+    volume: 0.525
+    source: {fileID: 0}
+  musicGroup: {fileID: 243998503013657228, guid: a92073fd4ef429841914de16ea8c7850,
+    type: 2}
+  sfxGroup: {fileID: 243729444503017978, guid: a92073fd4ef429841914de16ea8c7850, type: 2}
+  foleyGroup: {fileID: 243764506112553222, guid: a92073fd4ef429841914de16ea8c7850,
+    type: 2}
